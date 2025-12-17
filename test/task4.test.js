@@ -11,3 +11,5 @@ describe("Task 4" ,() => {
     } 
   )
 })
+
+expect(new Set(arr).size).toBe(arr.length);

@@ -29,3 +29,12 @@ describe("Task 2" ,() => {
     } 
   )
 })
+
+export const taskArr = () => {
+  const arr = [];
+  for (let i = 16; i >= 1; i--) {
+    arr.push(i);
+  }
+  arr.reverse();
+  return arr;
+};
